@@ -1,0 +1,6 @@
+{
+  "name": "ALGA",
+  "description": "Modern, minimalist Christian platform featuring the Holy Bible and Worship Songs with chord transposition and AI reflections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
