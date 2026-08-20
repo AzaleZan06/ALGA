@@ -1054,7 +1054,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('default')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'default'
+                      (sourceType as string) === 'default'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1066,7 +1066,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('bible')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'bible'
+                      (sourceType as string) === 'bible'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1078,7 +1078,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('songs')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'songs'
+                      (sourceType as string) === 'songs'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1225,7 +1225,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('default')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'default'
+                      (sourceType as string) === 'default'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1237,7 +1237,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('bible')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'bible'
+                      (sourceType as string) === 'bible'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1249,7 +1249,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('songs')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'songs'
+                      (sourceType as string) === 'songs'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1514,7 +1514,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('default')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'default'
+                      (sourceType as string) === 'default'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1526,7 +1526,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('bible')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'bible'
+                      (sourceType as string) === 'bible'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
@@ -1538,7 +1538,7 @@ export const LivePresentationSection: React.FC<LivePresentationSectionProps> = (
                   <button
                     onClick={() => setSourceType('songs')}
                     className={`py-1.5 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
-                      sourceType === 'songs'
+                      (sourceType as string) === 'songs'
                         ? 'bg-white text-black font-bold shadow-xs'
                         : 'text-stone-400 hover:text-white hover:bg-stone-900'
                     }`}
